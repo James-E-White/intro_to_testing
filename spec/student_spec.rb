@@ -25,8 +25,8 @@ RSpec.describe Student do
       student.add_cookie('Chocolate Chip')
       expect(student.cookies).to eq(['Chocolate Chip'])
     end
+ end
 end
-end 
       # write the code to initialize a new student object
 
     # test it has a name
